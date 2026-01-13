@@ -1,16 +1,44 @@
-# React + Vite
+# ☁️ Weather App - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo de previsão do tempo moderno e responsivo, desenvolvido com **React** e **Vite**, que consome dados em tempo real da **Weather API**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi construído utilizando as seguintes ferramentas:
 
-## React Compiler
+* **React.js**: Biblioteca principal para construção da interface.
+* **Vite**: Ferramenta de build ultra-rápida para o ambiente de desenvolvimento.
+* **Tailwind CSS**: Para estilização rápida e responsiva (ou CSS Modules, se preferir).
+* **Axios / Fetch API**: Para realizar as requisições HTTP.
+* **Weather API**: Fonte de dados para informações meteorológicas.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Funcionalidades
 
-## Expanding the ESLint configuration
+* 🔍 **Busca por cidade:** Encontre o clima atual de qualquer lugar do mundo.
+* 🌡️ **Dados em tempo real:** Temperatura, umidade, velocidade do vento e condição climática.
+* 📅 **Previsão:** Visualização do clima para os próximos dias.
+* 📱 **Responsividade:** Interface adaptada para dispositivos móveis e desktop.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como rodar o projeto
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/WeldonPereira/weather-app.git
+    ```
+
+2.  **Entre na pasta:**
+    ```bash
+    cd weather-app
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+> **Nota:** Certifique-se de configurar sua chave de API da [Weather API](https://www.weatherapi.com/) no arquivo `.env` para que a busca funcione corretamente.
