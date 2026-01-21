@@ -8,7 +8,7 @@ Este projeto foi construído utilizando as seguintes ferramentas:
 
 * **React.js**: Biblioteca principal para construção da interface.
 * **Vite**: Ferramenta de build ultra-rápida para o ambiente de desenvolvimento.
-* **Tailwind CSS**: Para estilização rápida e responsiva (ou CSS Modules, se preferir).
+* **CSS Modules**: Para estilização.
 * **Axios / Fetch API**: Para realizar as requisições HTTP.
 * **Weather API**: Fonte de dados para informações meteorológicas.
 
